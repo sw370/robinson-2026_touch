@@ -5,6 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    base: '/robinson-2026_touch/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {

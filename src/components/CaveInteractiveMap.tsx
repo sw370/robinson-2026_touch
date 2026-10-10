@@ -75,7 +75,7 @@ export const CaveInteractiveMap: React.FC<CaveInteractiveMapProps> = ({
     >
       {/* Cave Artwork Background */}
       <img
-        src="/assets/cave.jpg"
+        src={`${import.meta.env.BASE_URL}assets/cave.jpg`}
         alt="Пещера Робинзона"
         className="w-full h-full object-cover pointer-events-none"
         draggable={false}

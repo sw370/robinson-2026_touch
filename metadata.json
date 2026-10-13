@@ -1,8 +1,0 @@
-{
-  "name": "Пещера Робинзона",
-  "description": "Интерактивная сенсорная система для музейного киоска: запоминание английских слов, поиск предметов в пещере Робинзона, чтение отрывков дневника и оценка произношения.",
-  "requestFramePermissions": [
-    "microphone"
-  ],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
